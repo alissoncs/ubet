@@ -1,0 +1,28 @@
+{
+  "name": "ubet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissoncs/ubet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissoncs/ubet/issues"
+  },
+  "homepage": "https://github.com/alissoncs/ubet#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
