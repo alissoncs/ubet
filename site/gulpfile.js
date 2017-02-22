@@ -42,7 +42,7 @@ gulp.task('watch', ['default'], function () {
     livereload.listen()
     console.log("livereload listening... ")
     gulp.watch('./assets/sass/**/*.scss', ['sass'])
-    gulp.watch('./js/**/*', ['webpack'])
+    gulp.watch('./app/*.js', ['webpack'])
 
 });
 
